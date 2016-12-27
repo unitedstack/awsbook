@@ -2,9 +2,9 @@
 
 * [前言](前言.md)
 * [什么是AWS？](README.md)
-    * [关于AWS](关于aws.md)
-    * [AWS与云计算](aws与云计算.md)
-    * [AWS框架与方法论](aws框架和方法论.md)
+    * [关于AWS](什么是AWS/关于aws.md)
+    * [AWS与云计算](什么是AWS/aws与云计算.md)
+    * [AWS框架与方法论](什么是AWS/aws框架和方法论.md)
 * [AWS入门](chapter1.md)
     * AWS产品体系
     * AWS主要产品
