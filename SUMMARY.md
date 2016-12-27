@@ -5,5 +5,5 @@
 * [AWS解决方案](test.md)
 * [AWS入门](chapter1.md)
 * AWS知识与价值体系
-* AWS的启发
+* [AWS的启发](aws的启发.md)
 
