@@ -1,6 +1,10 @@
 ## AWS框架与方法论
 
 
-AWS 在其技术白皮书中详细介绍了它的云计算架构框架、企业采用 AWS 云的框架、以及一些最佳实践。为我们了解 AWS 云计算的思想、方法论和实践经验提供了很好的参考。
+AWS 在其技术白皮书中详细介绍了它的云计算架构框架、企业采用 AWS 云的框架、如何满足安全与合规性、以及一些最佳实践。为我们了解 AWS 云计算的思想、方法论和实践经验提供了很好的参考。
 
-本章节重点介绍 AWS Well （）、AWS
+本章节重点介绍 AWS Well-Architected Framework 系列、 AWS Cloud Adoption Framework 系列、和在云架构最佳实践 Architecting for the Cloud: AWS Best Practices。
+
+完整的 AWS 技术白皮书可参考： [https://aws.amazon.com/whitepapers/?nc1=h_ls](https://aws.amazon.com/whitepapers/?nc1=h_ls)
+
+推荐阅读的 AWS 技术白皮书：
