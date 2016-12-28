@@ -12,103 +12,11 @@ AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为�
 
 [https://aws.amazon.com/cn/products/?nc2=h\_ql\_ny\_gsc](https://aws.amazon.com/cn/products/?nc2=h_ql_ny_gsc)
 
-> ### **计算**
 
-* Amazon EC2
 
-  云中的虚拟服务器
 
-* Amazon EC2 Container Registry
 
-  存储和检索 Docker 映像
 
-* Amazon EC2 Container Service
-
-  运行和管理 Docker 容器
-
-* Amazon Lightsail
-
-  启动和管理虚拟专有服务器
-
-* Amazon VPC
-
-  隔离的云资源
-
-* AWS Batch
-
-  运行任意规模的批处理作业
-
-* AWS Elastic Beanstalk
-
-  运行和管理 Web 应用
-
-* AWS Lambda
-
-  运行代码以响应事件
-
-* Auto Scaling
-
-  自动化弹性扩展
-
-> ### **存储**
-
-* Amazon S3
-
-  云中的可扩展存储
-
-* Amazon EBS
-
-  针对 EC2 进行块存储
-
-* Amazon Elastic File System
-
-  针对 EC2 进行托管文件存储
-
-* Amazon Glacier
-
-  云中的低成本归档存储
-
-* AWS Storage Gateway
-
-  混合存储集成
-
-* AWS Snowball
-
-  PB 级数据传输
-
-* AWS Snowball Edge
-
-  通过板载计算实现 PB 级数据传输
-
-* AWS Snowmobile
-
-  EB 级数据传输
-
-> ### **数据库**
-
-* Amazon Aurora
-
-  高性能的托管关系数据库
-
-* Amazon RDS
-
-  适用于 MySQL、PostgreSQL、Oracle、SQL Server 和 MariaDB 的托管关系数据库服务
-
-* Amazon DynamoDB
-
-  托管 NoSQL 数据库
-
-* Amazon ElastiCache
-
-  内存中的缓存系统
-
-* Amazon Redshift
-
-  快速简单、经济高效的数据仓库
-
-* AWS Database Migration Service
-
-  以最少停机时间迁移数据库
 
 > ### **迁移**
 

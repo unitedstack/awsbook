@@ -11,6 +11,22 @@
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
+        * [计算](start/productsys/计算.md)
+        * [存储](start/productsys/存储.md)
+        * [数据库](start/productsys/数据库.md)
+        * 迁移
+        * 网络和内容分发
+        * 开发人员工具
+        * 管理工具
+        * 安全性、身份与合规性
+        * 分析
+        * 人工智能
+        * 移动服务
+        * 应用程序服务
+        * 消息收发
+        * 桌面和应用程序流式处理
+        * 物联网
+        * 游戏开发
     * [AWS主要产品](start/products/aws主要产品.md)
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
 * [AWS解决方案](solution/awssolution.md)
