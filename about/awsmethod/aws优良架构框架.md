@@ -33,6 +33,9 @@ AWS Well-Architected Framework 包括 6 个总体设计原则（General Design P
 
 5. 卓越运营 Operation Excellence Pillar
 
+
+**_architecting solution 需要根据业务目标在几个支柱之间做 trade-off。_**
+
 ![](/assets/FivePillars.JPG)
 
 

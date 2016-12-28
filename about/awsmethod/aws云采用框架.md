@@ -1,5 +1,17 @@
 ## AWS 云采用框架 Cloud Adoption Framework
 
+企业从传统 IT 到 Cloud 是一个渐进的过程，每个企业都应该根据自己的业务需求、IT 现状和蓝图来规划自己采用云的步骤。
+
+AWS 认为，在企业采用云的过程中，需要从五个视角来考虑和规划云化方案，从而定义出适合企业自己的从传统 IT 到 Cloud 的路线。也就是 AWS 的 Cloud Adoption Framework (CAF) 框架和方法。
+
+![](/assets/Using AWS CAF.JPG)
+
+![](/assets/Journal to Cloud.JPG)
+
+![](/assets/CAF and IT Lifecycle.JPG)
+
+
+
 ** 延伸阅读：AWS Cloud Adoption Framework 系列：**
 
 * [An Overview of the AWS Cloud Adoption Framework ](https://d0.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf) \(2016年10月\)_可帮助客户成功采用 AWS 的框架。_
