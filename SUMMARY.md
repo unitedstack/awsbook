@@ -45,7 +45,14 @@
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
 * [AWS解决方案](solution/awssolution.md)
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
+        * [WebApp](solution/application/webapp.md)
+        * [Oracle](solution/application/oracle.md)
+        * BackupRecovery
+        * EMR
+        * HPC
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
+        * 金融
+        * 政府
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
     * [文档体系](knowledge/docs/文档体系.md)
