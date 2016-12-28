@@ -32,6 +32,3 @@ AWS 认为，在企业采用云的过程中，需要从五个视角来考虑和�
 * [AWS Cloud Adoption Framework - Process Perspective ](https://d0.awsstatic.com/whitepapers/Process_Perspective_v1.0.pdf) \(2016年8月\)_让您的业务流程做好采用 AWS 云的准备。_
 
 * [AWS Cloud Adoption Framework - Security Perspective ](https://d0.awsstatic.com/whitepapers/AWS_CAF_Security_Perspective.pdf) \(2016年6月\)_让您的安全团队做好采用 AWS 云的准备。_
-
-
-

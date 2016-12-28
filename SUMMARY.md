@@ -6,7 +6,7 @@
     * [关于AWS](about/aws/关于aws.md)
     * [AWS与云计算](about/awscloud/aws与云计算.md)
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
-        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
+        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)）
         * [AWS优良架构框架](about/awsmethod/arch/aws优良架构框架.md)
             * [Security](about/awsmethod/arch/security.md)
             * [Reliability](about/awsmethod/arch/reliability.md)
@@ -24,7 +24,8 @@
         * [安全与合规性](about/awsmethod/security/安全与合规性.md)
             * [AWS最佳实践](about/awsmethod/security/bestpractice.md)
             * [方法和工具](about/awsmethod/security/方法和工具.md)
-            * [其他建议](about/awsmethod/security/其他建议.md)
+            * [其他建议](about/awsmethod/security/其他建议.md)AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md史蒂夫
+        
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
         * [计算](start/productsys/计算.md)
@@ -63,16 +64,23 @@
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
         * [WebApp](solution/application/webapp.md)
         * [Oracle](solution/application/oracle.md)
-        * BackupRecovery
-        * EMR
-        * HPC
+        * [BackupRecovery](solution/application/backuprecovery.md)
+        * [EMR](solution/application/emr.md)
+        * [HPC](solution/application/hpc.md)
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
-        * 金融
+        * [金融](solution/industry/金融.md)
         * 政府
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
-    * [文档体系](knowledge/docs/文档体系.md)
+    * [文档](knowledge/docs/文档体系.md)
+        * 从入门到进阶
+        * 按产品\/服务分
+        * 包含内容
+        * Web入口
     * [白皮书](knowledge/whitepaper/白皮书.md)
+        * [分类](knowledge/whitepaper/文档分类.md)
+    * AWS博客
+    * 文章与教程
     * [培训和认证体系](knowledge/training/培训和认证.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](conclusion/openstack/openstack.md)
