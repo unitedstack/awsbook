@@ -25,8 +25,6 @@
 
 * AWS CloudFormation
 
-* Amazon SQS
-
 * Amazon SNS
 
 * AWS Config

@@ -38,11 +38,10 @@
         * [IAM](start/products/iam.md)
         * [CloudWatch](start/products/cloudwatch.md)
         * [CloudFormation](start/products/cloudformation.md)
-        * AmazonSQS
-        * AmazonSNS
+        * [AmazonSNS](start/products/amazonsns.md)
         * [AWSConfig](start/products/awsconfig.md)
         * [TrustedAdvisor](start/products/trustedadvisor.md)
-        * APIGateway
+        * [APIGateway](start/products/apigateway.md)
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
 * [AWS解决方案](solution/awssolution.md)
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
