@@ -24,5 +24,5 @@
     * [OpenStack产品体系](conclusion/osproduct/osproduct.md)
     * [OpenStack产品化思考](conclusion/osproduct2/osproduct2.md)
     * [OpenStack知识和价值体系](conclusion/osknowledge/osknowledge.md)
-    * [结论](conclusion/README.md)
+    * [结论](conclusion/conclusion.md)
 
