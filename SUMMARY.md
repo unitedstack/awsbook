@@ -21,7 +21,10 @@
             * [Operations](about/awsmethod/CAF/operation.md)
             * [Security](about/awsmethod/CAF/security.md)
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
-        * 安全与合规性
+        * [安全与合规性](about/awsmethod/安全与合规性.md)
+            * BestPractice
+            * 方法和工具
+            * 其他建议
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
         * [计算](start/productsys/计算.md)
