@@ -41,7 +41,7 @@
         * AmazonSQS
         * AmazonSNS
         * [AWSConfig](start/products/awsconfig.md)
-        * TrustedAdvisor
+        * [TrustedAdvisor](start/products/trustedadvisor.md)
         * APIGateway
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
 * [AWS解决方案](solution/awssolution.md)
