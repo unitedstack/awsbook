@@ -73,27 +73,52 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
  
 #### 自动化 Automation
 
- AWS 通过以下产品和服务来实现自动化
- AWS Elastic Beanstalk
+ AWS 通过以下产品和服务来实现自动化：
+ 
+ * AWS Elastic Beanstalk
 
-	Amazon EC2 Auto recovery
+* Amazon EC2 Auto recovery
 
-		借助CloudWatch
+ 借助 CloudWatch。
 
-	Auto Scaling
+* Auto Scaling
 
-	Amazon CloudWatch Alarms
+* Amazon CloudWatch Alarms
 
-		可发消息至 Amazon Simple Notification Service（SNS），消息可触发一些操作
+ 可发消息至 Amazon Simple Notification Service (SNS) ，消息可触发一些自动化操作。
 
-	Amazon CloudWatch Events
+* Amazon CloudWatch Events
 
-		可制定rule将event路由给其他服务做后续处理：Lambda functions,  Kinesis treams, SNS topics
+ 可制定 rule 将 event 路由给其它服务做后续处理，如 Lambda functions,  Kinesis treams, SNS topics。
 
-	AWS OpsWorks Lifecycle event
+* AWS OpsWorks Lifecycle event
 
-		实现整个生命周期中环境的自动化的持续配置管理
+ 实现整个生命周期中环境的自动化的持续配置管理。
 
-	AWS Lambda Scheduled events
+* AWS Lambda Scheduled events
 
-		通过事件驱动Lambda服务（serverless计算服务）
+ 通过事件驱动Lambda服务（serverless计算服务）
+
+#### 松耦合 Loose Coupling
+	
+应用/IT系统应该拆分成小的、松耦合的组件/模块
+	
+Well-Defined Interfaces
+
+各组件之间通过统一接口来交互，如Restful API
+		
+amazon API gateway
+	
+Service Discovery
+		
+比如 ELB + DNS，而不是通过IP直接调用
+	
+Asynchronous Integration
+		
+比如SQS队列服务或 Kinesis流式数据服务，而不是直接API call
+		
+适用于异步调用
+	
+Graceful Failure
+		
+处理好组件failure
