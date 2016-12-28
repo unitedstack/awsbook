@@ -1,22 +1,22 @@
 # Summary
 
 * [前言](前言.md)
-* [什么是AWS？](AWS.md)
-    * [关于AWS](什么是AWS/关于aws.md)
-    * [AWS与云计算](什么是AWS/aws与云计算.md)
-    * [AWS框架与方法论](什么是AWS/aws框架和方法论.md)
-* [AWS入门](rumen/chapter1.md)
-    * [AWS产品体系](aws产品体系.md)
-    * [AWS主要产品](rumen/product/README.md)
-    * AWS产品之间的关系
-* [AWS解决方案](test.md)
-    * 典型解决方案 - 面向应用
-    * 典型解决方案 - 面向行业
-    * AWS生态
-* [AWS知识与价值体系](aws知识与价值体系.md)
-    * 文档体系
-    * 白皮书
-    * 培训和认证体系
+* [什么是AWS？](about/AWS.md)
+    * [关于AWS](about/aws/关于aws.md)
+    * [AWS与云计算](about/awscloud/aws与云计算.md)
+    * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
+* [AWS入门](start/awsstart.md)
+    * [AWS产品体系](start/productsys/aws产品体系.md)
+    * [AWS主要产品](start/products/aws主要产品.md)
+    * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
+* [AWS解决方案](solution/awssolution.md)
+    * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
+    * [典型解决方案 - 面向行业](solution/application/aws行业解决方案.md)
+    * [AWS生态](solution/marketplace/aws生态.md)
+* [AWS知识与价值体系](/knowledge/aws知识与价值体系.md)
+    * [文档体系](/knowledge/aws知识与价值体系.md)
+    * [白皮书](/knowledge/aws知识与价值体系.md)
+    * [培训和认证体系](/knowledge/aws知识与价值体系.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](openstack-what-and-why.md)
     * 为什么选择OpenStack
