@@ -4,6 +4,7 @@ AWS Trusted Advisor 是一项在线服务，可以帮助客户优化在 AWS 上�
 
 Trusted Advisor 提供实时的指导，帮助客户遵循 AWS 最佳实践来架构云和部署相应资源。
 
+![](/assets/Trusted_Advisor_FINAL.png)
 
 #### AWS Trusted Advisor 两种服务模式
 
