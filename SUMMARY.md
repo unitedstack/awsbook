@@ -33,7 +33,7 @@
         * [AmazonVPC](start/products/amazonvpc.md)
         * [AutoScaling](start/products/autoscaling.md)
         * [AmazonS3](start/products/amazons3.md)
-        * AmazonEBS
+        * [AmazonEBS](start/products/amazonebs.md)
         * AmazonRDS
         * IAM
         * CloudWatch

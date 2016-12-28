@@ -1,4 +1,4 @@
-## AWS 主要产品Amazon EBS
+## AWS 主要产品
 
 
 本章节介绍一些 AWS 主要产品，这些产品大部分是最基础但同时又是最重要、最常用的 AWS 产品（如 Amazon EC2、Amazon VPC、Amazon S3、Amazon IAM），同时也包括一些对传统企业客户有重要意义的产品（如 Amazon Config、Amazon Trusted Advisor），以及一些能体现 AWS 架构设计理念的产品（如 Amazon API Gateway）。
