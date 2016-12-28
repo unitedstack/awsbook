@@ -10,22 +10,16 @@ AWS 在其技术白皮书中详细介绍了它的云计算架构框架、企业�
 
 * [Architecting for the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf) \(2016 年 2 月\) _面向使用 AWS 服务设计解决方案的架构师的规范指南。_
 
-  **AWS Well-Architected Framework 系列：**
-
+* [An Overview of the AWS Cloud Adoption Framework ](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf) (2016年11月)_概要介绍用于验证架构的框架。_
 
 * [AWS Well-Architected Framework](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf) (2016年11月)_概要介绍用于验证架构的框架。_
 
-* [AWS Well-Architected Framework - Security](https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf) Pillar(2016年11月)_概要介绍用于验证架构的框架。_
 
-* [AWS Well-Architected Framework - Reliability Pillar](https://d0.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf)(2016年11月)_详细介绍如何验证架构的可靠性方面。_
 
-* [AWS Well-Architected Framework - Performance Efficiency Pillar](https://d0.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf)(2016年11月)_详细介绍如何验证架构的性能方面。_
 
-* [AWS Well-Architected Framework - Cost Optimization Pillar](https://d0.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf)(2016年11月)_详细介绍如何验证架构的成本/价值方面。_
+ 
 
-** AWS Cloud Adoption Framework 系列：**
 
-* [An Overview of the AWS Cloud Adoption Framework ](https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf) (2016年11月)_概要介绍用于验证架构的框架。_
 
 
 
