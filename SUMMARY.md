@@ -35,9 +35,9 @@
         * [AmazonS3](start/products/amazons3.md)
         * [AmazonEBS](start/products/amazonebs.md)
         * [AmazonRDS](start/products/amazonrds.md)
-        * IAM
-        * CloudWatch
-        * CloudFormation
+        * [IAM](start/products/iam.md)
+        * [CloudWatch](start/products/cloudwatch.md)
+        * [CloudFormation](start/products/cloudformation.md)
         * AmazonSQS
         * AmazonSNS
         * AWSConfig
