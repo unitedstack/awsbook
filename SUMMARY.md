@@ -6,20 +6,20 @@
     * [关于AWS](about/aws/关于aws.md)
     * [AWS与云计算](about/awscloud/aws与云计算.md)
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
-        * [AWS优良架构框架](about/awsmethod/aws优良架构框架.md)
-            * [Security](about/awsmethod/security.md)
-            * [Reliability](about/awsmethod/reliability.md)
-            * [Performance Efficiency](about/awsmethod/performance-efficiency.md)
-            * [Cost Optimization](about/awsmethod/costoptimization.md)
-            * [Operational Excellence](about/awsmethod/operational-excellence.md)
+        * [AWS优良架构框架](about/awsmethod/arch/aws优良架构框架.md)
+            * [Security](about/awsmethod/arch/security.md)
+            * [Reliability](about/awsmethod/arch/reliability.md)
+            * [Performance Efficiency](about/awsmethod/arch/performance-efficiency.md)
+            * [Cost Optimization](about/awsmethod/arch/costoptimization.md)
+            * [Operational Excellence](about/awsmethod/arch/operational-excellence.md)
         * [AWS云采用框架](about/awsmethod/aws云采用框架.md)
             * [Business](about/awsmethod/business.md)
-            * Platform
-            * Maturity
-            * People
-            * Process
+            * [Platform](about/awsmethod/platform.md)
+            * [Maturity](about/awsmethod/maturity.md)
+            * [People](about/awsmethod/people.md)
+            * [Process](about/awsmethod/process.md)
             * [Operations](about/awsmethod/operation.md)
-            * Security
+            * [Security](about/awsmethod/securityper.md)
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
