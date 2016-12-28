@@ -13,16 +13,16 @@
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
     * [典型解决方案 - 面向行业](solution/application/aws行业解决方案.md)
     * [AWS生态](solution/marketplace/aws生态.md)
-* [AWS知识与价值体系](/knowledge/aws知识与价值体系.md)
-    * [文档体系](/knowledge/docs/文档体系.md)
-    * [白皮书](/knowledge/whitepaper/白皮书.md)
-    * [培训和认证体系](/knowledge/training/培训和认证.md)
+* [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
+    * [文档体系](knowledge/docs/文档体系.md)
+    * [白皮书](knowledge/whitepaper/白皮书.md)
+    * [培训和认证体系](knowledge/training/培训和认证.md)
 * [AWS的启发](aws的启发.md)
-    * [什么是OpenStack](openstack-what-and-why.md)
-    * 为什么选择OpenStack
-    * OpenStack的受众
-    * OpenStack产品体系
-    * OpenStack产品化思考
-    * OpenStack知识和价值体系
-    * 结论
+    * [什么是OpenStack](conclusion/openstack/openstack.md)
+    * [为什么选择OpenStack](conclusion/whyos/whyopenstack.md)
+    * [OpenStack的受众](conclusion/osuser/openstackuser.md)
+    * [OpenStack产品体系](conclusion/osproduct/osproduct.md)
+    * [OpenStack产品化思考](conclusion/osproduct2/osproduct2.md)
+    * [OpenStack知识和价值体系](conclusion/osknowledge/osknowledge.md)
+    * [结论](conclusion/conclusion.md)
 
