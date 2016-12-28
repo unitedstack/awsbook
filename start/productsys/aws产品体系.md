@@ -203,3 +203,49 @@ AWS Shield
 DDoS 保护
 AWS WAF
 过滤恶意 Web 流量
+
+>### **分析**
+
+Amazon Athena
+使用 SQL 在 S3 中查询数据
+Amazon EMR
+托管的 Hadoop 框架
+Amazon CloudSearch
+托管的搜索服务
+Amazon Elasticsearch Service
+运行和扩展 Elasticsearch 集群
+Amazon Kinesis
+处理实时流式数据
+Amazon Redshift
+快速简单、经济高效的数据仓库
+Amazon Quicksight
+高速商业分析服务
+AWS Data Pipeline
+适用于周期性数据驱动工作流的编排服务
+AWS Glue
+准备和加载数据
+
+>### **人工智能**
+
+Amazon Lex
+构建语音和文本聊天机器人
+Amazon Polly
+将文本转换为逼真的语音
+Amazon Rekognition
+搜索和分析图像
+
+>### **移动服务**
+
+AWS Mobile Hub
+构建、测试和监控应用程序
+Amazon API Gateway
+构建、部署和管理 API
+Amazon Cognito
+用户身份和应用程序数据同步
+Amazon Pinpoint
+为移动应用程序推送通知
+AWS Device Farm
+在云中的真实设备上测试 Android, FireOS 和 iOS 应用程序
+AWS 移动软件开发工具包
+移动软件开发工具包
+
