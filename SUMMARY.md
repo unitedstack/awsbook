@@ -40,7 +40,7 @@
         * [CloudFormation](start/products/cloudformation.md)
         * AmazonSQS
         * AmazonSNS
-        * AWSConfig
+        * [AWSConfig](start/products/awsconfig.md)
         * TrustedAdvisor
         * APIGateway
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)

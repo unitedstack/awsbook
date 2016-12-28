@@ -34,7 +34,3 @@
 * AWS Trusted Advisor
 
 * Amazon API Gateway
-
-
- 
-
