@@ -30,7 +30,7 @@
 
 #### 一些安全的最佳实践
 
-* AWS账号
+* **AWS账号**
 
   * IAM users
 
@@ -40,9 +40,9 @@
 
   * AWS Credentials
 
-* EC2在OS层面的访问控制
+* **EC2在OS层面的访问控制**
 
-* 数据安全
+* **数据安全**
 
   * 访问控制
 
@@ -50,31 +50,73 @@
 
   * 数据保护
 
-  for S3
+   * for S3
 
-  for EBS
+   * for EBS
 
-  for RDS
+   * for RDS
 
-  for Glacier
+   * for Glacier
 
-  for DynamoDB
+   * for DynamoDB
 
-  for EMR
+   * for EMR
 
-  数据传输安全
+  * 数据传输安全
 
-  应用和管理者对AWS服务的访问控制
+   * 应用和管理者对AWS服务的访问控制
 
-  for 管理AWS服务时的数据传输
+   * for 管理AWS服务时的数据传输
 
-  for S3
+   * for S3
 
-  for RDS
+   * for RDS
 
-  for DynamoDB
+   * for DynamoDB
 
-  for EMR
+   * for EMR
+   
+* **操作系统和应用安全**
+		
+ * AMI
+		
+ * bootstrapping
+		
+ * 管理 patches
+		
+ * 控制公共 AMI 的安全
+		
+ * 防恶意软件
+		
+ * 减轻危害和滥用
+		
+ * 使用额外的应用安全实践
 
+* **基础架构安全**
+		
+ * Amazon VPC
+		
+ * Security Zoning 和 network segmentation
+		
+ * 增强网络安全
+		
+ * 用户仓库、DNS、NTP
+		
+ * 构建威胁保护层
+		
+ * 测试安全
+		
+ * 管理指标和改进
+		
+ * 减轻和预防DoS & DDoS
 
+* **管理安全的监控、告警、审计、事件响应**
+		
+ * 使用变更管理日志
+		
+ * 管理关键事务的日志
+		
+ * 保护日志信息
+		
+ * 记录软件或组件的故障日志
 
