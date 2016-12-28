@@ -11,7 +11,7 @@
             * [Reliability](about/awsmethod/reliability.md)
             * [Performance Efficiency](about/awsmethod/performance-efficiency.md)
             * [Cost Optimization](about/awsmethod/costoptimization.md)
-            * Operational Excellence
+            * [Operational Excellence](about/awsmethod/operational-excellence.md)
         * [AWS云采用框架](about/awsmethod/aws云采用框架.md)
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
 * [AWS入门](start/awsstart.md)
