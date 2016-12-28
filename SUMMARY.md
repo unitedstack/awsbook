@@ -59,16 +59,23 @@
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
         * [WebApp](solution/application/webapp.md)
         * [Oracle](solution/application/oracle.md)
-        * BackupRecovery
-        * EMR
-        * HPC
+        * [BackupRecovery](solution/application/backuprecovery.md)
+        * [EMR](solution/application/emr.md)
+        * [HPC](solution/application/hpc.md)
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
-        * 金融
+        * [金融](solution/industry/金融.md)
         * 政府
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
-    * [文档体系](knowledge/docs/文档体系.md)
+    * [文档](knowledge/docs/文档体系.md)
+        * 从入门到进阶
+        * 按产品\/服务分
+        * 包含内容
+        * Web入口
     * [白皮书](knowledge/whitepaper/白皮书.md)
+        * [分类](knowledge/whitepaper/文档分类.md)
+    * AWS博客
+    * 文章与教程
     * [培训和认证体系](knowledge/training/培训和认证.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](conclusion/openstack/openstack.md)
