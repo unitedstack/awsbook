@@ -133,4 +133,88 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
  
  比如 Amazon Lambda 提供 Serverless 计算资源，可以按 code 执行时间收费而不是 instance 数量收费，可以充分 scale 利用资源。
  
+#### 数据库 Databases
+
+* 根据业务情况选择合适的数据库类型
+
+ 应该从以下几个方面进行评估和考虑：
+
+ * 负载情况：读、写
+
+ * 数据量和增长趋势
+
+ * 数据访问方式
+
+ * 数据持久性需求
+
+ * 访问延迟需求，并发访问量
+
+ * 数据模型，是否有关系型操作
+
+ * 需要什么相关功能：例如完整性、灵活性、报表、基于SQL
+
+* AWS 提供多种类型的数据库服务供选择
+
+ * Relational Databases
+
+ * NoSQL Databases
+
+ * Data Warehouse
+
+ * Search 
+
+#### 消除单点故障 Removing Single Points of Failure
+
+* Introducing Redundancy
+
+* Detect Failure
+
+* Durable Data Storage
+
+* Automated Multi-Data Center Resilience
+
+* Fault Isolation and Traditional Horizontal Scaling
+
+#### 成本优化 Optimize for Cost
+
+* Right Sizing
+ 
+ 合理评估业务需求，选择合适大小的资源*
+
+ * Data-driven，持续监控和 tagging （了解和控制费用）
+ 
+ Data-driven 基于 CloudWatch，除了用于成本优化，还可用于云架构的持续优化。参见 Well-Architected Framework 的总体设计原则。
+ 
+* Elasticity
+
+* Take Advantage of the Variety of Purchasing Options
+
+ 充分利用不的定价策略：reserved instance, spot instance, on-demand instance 等。
+ 
+####缓存 Caching
+
+* Application Data Caching
+
+* Edge Caching
+
+ CDN：CloudFront
+ 
+ 
+#### 安全 Security
+
+* Utilize AWS Features for Defense in Depth
+
+ VPC、WAF、IAM 等
+
+* Offload Security Responsibility to AWS
+
+* Reduce Privileged Access
+
+* Security as Code
+
+ 通过 CloudFormation 模板创建安全的 "golden environment"，以便重复使用。
+
+* Real-Time Auditing
+
+
  
