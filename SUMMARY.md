@@ -31,8 +31,8 @@
     * [AWS主要产品](start/products/aws主要产品.md)
         * [AmazonEC2](start/products/amazonec2.md)
         * [AmazonVPC](start/products/amazonvpc.md)
-        * AutoScaling
-        * AmazonS3
+        * [AutoScaling](start/products/autoscaling.md)
+        * [AmazonS3](start/products/amazons3.md)
         * AmazonEBS
         * AmazonRDS
         * IAM
