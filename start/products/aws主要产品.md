@@ -9,31 +9,31 @@
 
 * Amazon EC2 
 
-Amazon VPC 
+* Amazon VPC 
 
-Auto Scaling
+* Auto Scaling
 
-Amazon S3
+* Amazon S3
 
-Amazon EBS
+* Amazon EBS
 
-Amazon RDS
+* Amazon RDS
 
-AWS Identity and Access Management 
+* AWS Identity and Access Management 
 
-Amazon CloudWatch
+* Amazon CloudWatch
 
-AWS CloudFormation
+* AWS CloudFormation
 
-Amazon SQS
+* Amazon SQS
 
-Amazon SNS
+* Amazon SNS
 
-AWS Config
+* AWS Config
 
-AWS Trusted Advisor
+* AWS Trusted Advisor
 
-Amazon API Gateway
+* Amazon API Gateway
 
 
  

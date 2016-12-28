@@ -29,6 +29,20 @@
         * [物联网](start/productsys/物联网.md)
         * [游戏开发](start/productsys/游戏开发.md)
     * [AWS主要产品](start/products/aws主要产品.md)
+        * [AmazonEC2](start/products/amazonec2.md)
+        * AmazonVPC
+        * AutoScaling
+        * AmazonS3
+        * AmazonEBS
+        * AmazonRDS
+        * IAM
+        * CloudWatch
+        * CloudFormation
+        * AmazonSQS
+        * AmazonSNS
+        * AWSConfig
+        * TrustedAdvisor
+        * APIGateway
     * [AWS产品之间的关系](start/relation/aws产品间的关系.md)
 * [AWS解决方案](solution/awssolution.md)
     * [典型解决方案 - 面向应用](solution/application/aws应用解决方案.md)
