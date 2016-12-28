@@ -260,152 +260,152 @@ AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为�
 
 > ### **分析**
 
-Amazon Athena
+* Amazon Athena
   
-使用 SQL 在 S3 中查询数据
+ 使用 SQL 在 S3 中查询数据
   
-Amazon EMR
+* Amazon EMR
   
-托管的 Hadoop 框架 
+ 托管的 Hadoop 框架 
  
-Amazon CloudSearch
+* Amazon CloudSearch
   
-托管的搜索服务  
+ 托管的搜索服务  
 
-Amazon Elasticsearch Service
+* Amazon Elasticsearch Service
   
-运行和扩展 Elasticsearch 集群 
+ 运行和扩展 Elasticsearch 集群 
  
-Amazon Kinesis  
+* Amazon Kinesis  
 
-处理实时流式数据 
+ 处理实时流式数据 
  
-Amazon Redshift 
+* Amazon Redshift 
  
-快速简单、经济高效的数据仓库
+ 快速简单、经济高效的数据仓库
   
-Amazon Quicksight
+* Amazon Quicksight
   
-高速商业分析服务 
+ 高速商业分析服务 
  
-AWS Data Pipeline 
+* AWS Data Pipeline 
  
-适用于周期性数据驱动工作流的编排服务
+ 适用于周期性数据驱动工作流的编排服务
   
-AWS Glue  
+* AWS Glue  
 
-准备和加载数据
+ 准备和加载数据
 
 
 > ### **人工智能**
 
-Amazon Lex 
+* Amazon Lex 
  
-构建语音和文本聊天机器人
+ 构建语音和文本聊天机器人
   
-Amazon Polly
+* Amazon Polly
   
-将文本转换为逼真的语音
+ 将文本转换为逼真的语音
   
-Amazon Rekognition
+* Amazon Rekognition
   
-搜索和分析图像
+ 搜索和分析图像
 
 
 > ### **移动服务**
 
-AWS Mobile Hub
+* AWS Mobile Hub
   
-构建、测试和监控应用程序
+ 构建、测试和监控应用程序
   
-Amazon API Gateway
+* Amazon API Gateway
   
-构建、部署和管理 API
+ 构建、部署和管理 API
   
-Amazon Cognito 
+* Amazon Cognito 
  
-用户身份和应用程序数据同步
+ 用户身份和应用程序数据同步
   
-Amazon Pinpoint
+* Amazon Pinpoint
   
-为移动应用程序推送通知
+ 为移动应用程序推送通知
   
-AWS Device Farm
+* AWS Device Farm
   
-在云中的真实设备上测试 Android, FireOS 和 iOS 应用程序
+ 在云中的真实设备上测试 Android, FireOS 和 iOS 应用程序
   
-AWS 移动软件开发工具包
+* AWS 移动软件开发工具包
   
-移动软件开发工具包
+ 移动软件开发工具包
 
 
 > ### **应用程序服务**
 
-AWS Step Functions
+* AWS Step Functions
   
-协调分布式应用程序
+ 协调分布式应用程序
   
-Amazon API Gateway 
+* Amazon API Gateway 
  
-构建、部署和管理 API 
+ 构建、部署和管理 API 
  
-Amazon Elastic Transcoder 
+* Amazon Elastic Transcoder 
  
-易用型可扩展媒体转码
+ 易用型可扩展媒体转码
 
 > ### **消息收发**
 
-Amazon SQS
+* Amazon SQS
   
-消息队列服务
+ 消息队列服务
   
-Amazon SNS 
+* Amazon SNS 
  
-推送通知服务 
+ 推送通知服务 
  
-Amazon Pinpoint 
+* Amazon Pinpoint 
  
-为移动应用程序推送通知 
+ 为移动应用程序推送通知 
  
-Amazon SES 
+* Amazon SES 
  
-电子邮件发送和接收服务
+ 电子邮件发送和接收服务
 
 > ### **企业生产力**
 
-Amazon WorkDocs 
+* Amazon WorkDocs 
  
-企业存储和共享服务 
+ 企业存储和共享服务 
  
-Amazon WorkMail
+* Amazon WorkMail
   
-安全和托管的商业电子邮件和日历编排
+ 安全和托管的商业电子邮件和日历编排
 
 
 > ### **桌面和应用程序流式处理**
 
-Amazon WorkSpaces
+* Amazon WorkSpaces
   
-桌面计算服务
+ 桌面计算服务
   
-Amazon AppStream 2.0
+* Amazon AppStream 2.0
   
-将桌面应用程序流式传输至浏览器
+ 将桌面应用程序流式传输至浏览器
 
 
 > ### **物联网**
 
-AWS IoT 平台
+* AWS IoT 平台
   
-将设备连接到云
+ 将设备连接到云
   
-AWS Greengrass
+* AWS Greengrass
   
-本地计算、消息收发和设备同步
+ 本地计算、消息收发和设备同步
   
-AWS IoT Button
+* AWS IoT Button
   
-可编程的云端 Dash Button
+ 可编程的云端 Dash Button
 
 
 > ### **游戏开发**
