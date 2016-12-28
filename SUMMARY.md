@@ -6,6 +6,7 @@
     * [关于AWS](about/aws/关于aws.md)
     * [AWS与云计算](about/awscloud/aws与云计算.md)
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
+        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
         * [AWS优良架构框架](about/awsmethod/arch/aws优良架构框架.md)
             * [Security](about/awsmethod/arch/security.md)
             * [Reliability](about/awsmethod/arch/reliability.md)
@@ -19,9 +20,8 @@
             * [People](about/awsmethod/CAF/people.md)
             * [Process](about/awsmethod/CAF/process.md)
             * [Operations](about/awsmethod/CAF/operation.md)
-            * [Security](about/awsmethod/CAF/security.md)
-        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
-        * [安全与合规性](about/awsmethod/安全与合规性.md)
+            * [Security](about/awsmethod/CAF/security.md)       
+        * [安全与合规性](about/awsmethod/security/安全与合规性.md)
             * BestPractice
             * 方法和工具
             * 其他建议
