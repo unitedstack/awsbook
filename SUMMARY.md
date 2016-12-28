@@ -14,9 +14,9 @@
     * [典型解决方案 - 面向行业](solution/application/aws行业解决方案.md)
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](/knowledge/aws知识与价值体系.md)
-    * [文档体系](/knowledge/aws知识与价值体系.md)
-    * [白皮书](/knowledge/aws知识与价值体系.md)
-    * [培训和认证体系](/knowledge/aws知识与价值体系.md)
+    * [文档体系](/knowledge/docs/文档体系.md)
+    * [白皮书](/knowledge/whitepaper/白皮书.md)
+    * [培训和认证体系](/knowledge/training/培训和认证.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](openstack-what-and-why.md)
     * 为什么选择OpenStack
