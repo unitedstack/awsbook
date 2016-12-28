@@ -7,6 +7,11 @@
     * [AWS与云计算](about/awscloud/aws与云计算.md)
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
         * [AWS优良架构框架](about/awsmethod/aws优良架构框架.md)
+            * [Security](about/awsmethod/security.md)
+            * Reliability
+            * Performance Efficiency
+            * [Cost Optimization](about/awsmethod/costoptimization.md)
+            * Operational Excellence
         * [AWS云采用框架](about/awsmethod/aws云采用框架.md)
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
 * [AWS入门](start/awsstart.md)

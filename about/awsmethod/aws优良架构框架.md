@@ -8,19 +8,13 @@ AWS Well-Architected Framework 包括 6 个总体设计原则（General Design P
 
 1. Stop guessing your capacity needs
 
-  云中的资源是
-
 1. Test systems at production scale
-
 
 2. Automate to make architectural experimentation easier
 
-
 3. Allow for evolutionary architectures
 
-
 4. Data-Driven architectures
-
 
 5. Improve through game days
 
@@ -37,6 +31,7 @@ AWS Well-Architected Framework 包括 6 个总体设计原则（General Design P
 
 5. 卓越运营 Operation Excellence Pillar
 
+![](/assets/FivePillars.JPG)
 
 
 **延伸阅读：AWS Well-Architected Framework 系列：**
