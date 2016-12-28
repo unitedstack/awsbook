@@ -101,24 +101,36 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
 
 #### 松耦合 Loose Coupling
 	
-应用/IT系统应该拆分成小的、松耦合的组件/模块
+应用/ IT 系统应该拆分成小的、松耦合的组件/模块。
 	
-Well-Defined Interfaces
+* Well-Defined Interfaces
 
-各组件之间通过统一接口来交互，如Restful API
+ 各组件之间通过统一接口来交互，如 Restful API。
 		
-amazon API gateway
+ Amazon API Gateway 也可实现上述目标。
 	
-Service Discovery
+* Service Discovery
 		
-比如 ELB + DNS，而不是通过IP直接调用
+ 比如使用 ELB + DNS，而不是通过IP直接调用。
 	
-Asynchronous Integration
+* Asynchronous Integration
 		
-比如SQS队列服务或 Kinesis流式数据服务，而不是直接API call
+ 比如SQS队列服务或 Kinesis流式数据服务，而不是直接API call （
 		
-适用于异步调用
+适用于异步调用）。
 	
-Graceful Failure
+* Graceful Failure
 		
-处理好组件failure
+ 处理好组件 failure。
+ 
+#### 服务，而不是服务器 Services, Not Servers
+
+* Managed Services
+ 
+ AWS 在“服务器”（EC2 instance）之外，更多的是提供各种服务，如  Amazon Simple Email Service (Amazon SES) 、各种 Database、machine learning、search 等。
+
+* Serverless Architectures
+ 
+ 比如 Amazon Lambda 提供 Serverless 计算资源，可以按 code 执行时间收费而不是 instance 数量收费，可以充分 scale 利用资源。
+ 
+ 
