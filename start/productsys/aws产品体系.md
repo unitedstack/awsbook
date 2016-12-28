@@ -18,49 +18,9 @@ AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为�
 
 
 
-> ### **迁移**
 
-* AWS Database Migration Service
 
-  以最少停机时间迁移数据库
 
-* AWS Server Migration Service
-
-  将本地服务器迁移到 AWS
-
-* AWS Snowball
-
-  PB 级数据传输
-
-* AWS Snowball Edge
-
-  通过板载计算实现 PB 级数据传输
-
-* AWS Snowmobile
-
-  EB 级数据传输
-
-> ### **网络和内容分发**
-
-* Amazon VPC
-
-  隔离的云资源
-
-* Amazon CloudFront
-
-  全球内容分发网络
-
-* Amazon Route 53
-
-  可扩展域名系统
-
-* AWS Direct Connect
-
-  AWS 专用网络连接
-
-* Elastic Load Balancing
-
-  高扩展负载均衡
 
 > ### **开发人员工具**
 

@@ -14,9 +14,9 @@
         * [计算](start/productsys/计算.md)
         * [存储](start/productsys/存储.md)
         * [数据库](start/productsys/数据库.md)
-        * 迁移
-        * 网络和内容分发
-        * 开发人员工具
+        * [迁移](start/productsys/迁移.md)
+        * [网络和内容分发](start/productsys/网络和内容分发.md)
+        * [开发人员工具](start/productsys/开发人员工具.md)
         * 管理工具
         * 安全性、身份与合规性
         * 分析
