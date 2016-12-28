@@ -18,4 +18,6 @@ S3：
 
 Amazon S3 与其他 AWS 服务深度集成，因此客户很容易构建基于 Amazon S3 使用各种 AWS 服务的解决方案。集成的服务包括 Amazon CloudFront、Amazon CloudWatch、Amazon Kinesis、Amazon RDS、Amazon Glacier、Amazon EBS、Amazon DynamoDB、Amazon Redshift、Amazon Route 53、Amazon EMR、Amazon VPC、Amazon KMS 和 AWS Lambda。
 
+另外，AWS 针对不同业务场景的存储需求对存储产品做了很好的分类，比如 Amazon EBS、Amazon S3、Amazon Glacier，针对每个存储产品都有非常明确的使用场景（也是最佳实践），在帮助客户更好的选择产品来架构云同时，也更突出了 AWS 及其产品对客户的价值。
+
 CloudWatch：通过监控数据的收集和传递，完成和实现了  监控运维、为 data-driven 的云架构优化提供基础，为使用审计和合规性提供基础，为各种自动化操作提供基础，为在云上实践传统企业 ITIL 流程中的事件管理提供基础。是一个非常重要的管道。
