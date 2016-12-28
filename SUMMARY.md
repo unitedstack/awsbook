@@ -34,7 +34,7 @@
         * [AutoScaling](start/products/autoscaling.md)
         * [AmazonS3](start/products/amazons3.md)
         * [AmazonEBS](start/products/amazonebs.md)
-        * AmazonRDS
+        * [AmazonRDS](start/products/amazonrds.md)
         * IAM
         * CloudWatch
         * CloudFormation
