@@ -12,6 +12,9 @@ AWS 认为，在企业采用云的过程中，需要从五个视角来考虑和�
 
 
 
+
+
+
 ** 延伸阅读：AWS Cloud Adoption Framework 系列：**
 
 * [An Overview of the AWS Cloud Adoption Framework ](https://d0.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf) \(2016年10月\)_可帮助客户成功采用 AWS 的框架。_
