@@ -13,6 +13,13 @@
             * [Cost Optimization](about/awsmethod/costoptimization.md)
             * [Operational Excellence](about/awsmethod/operational-excellence.md)
         * [AWS云采用框架](about/awsmethod/aws云采用框架.md)
+            * [Business](about/awsmethod/business.md)
+            * Platform
+            * Maturity
+            * People
+            * Process
+            * [Operations](about/awsmethod/operation.md)
+            * Security
         * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
