@@ -6,7 +6,7 @@
     * [关于AWS](about/aws/关于aws.md)
     * [AWS与云计算](about/awscloud/aws与云计算.md)
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
-        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)）
+        * [AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md)
         * [AWS优良架构框架](about/awsmethod/arch/aws优良架构框架.md)
             * [Security](about/awsmethod/arch/security.md)
             * [Reliability](about/awsmethod/arch/reliability.md)
@@ -24,8 +24,7 @@
         * [安全与合规性](about/awsmethod/security/安全与合规性.md)
             * [AWS最佳实践](about/awsmethod/security/bestpractice.md)
             * [方法和工具](about/awsmethod/security/方法和工具.md)
-            * [其他建议](about/awsmethod/security/其他建议.md)AWS云架构最佳实践](about/awsmethod/aws云架构最佳实践.md史蒂夫
-        
+            * [其他建议](about/awsmethod/security/其他建议.md)
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
         * [计算](start/productsys/计算.md)
@@ -69,7 +68,7 @@
         * [HPC](solution/application/hpc.md)
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
         * [金融](solution/industry/金融.md)
-        * 政府
+        * [政府](solution/industry/政府.md)
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
     * [文档](knowledge/docs/文档体系.md)
