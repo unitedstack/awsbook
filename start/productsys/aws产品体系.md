@@ -4,7 +4,6 @@ Amazon Web Services 提供了大量基于云的全球性产品，其中包括计
 
 AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为在他们看来，所有的产品是为满足业务需求而服务的，客户关心的是如何解决业务问题，而不是这些产品处于 Infrastructure / Platform / Software 的哪个层次。
 
-另外，从 AWS 官网对产品的分类可以看到，有些产品同时
 
 
 ![](/assets/产品体系.JPG)
@@ -13,7 +12,7 @@ AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为�
 
 https://aws.amazon.com/cn/products/?nc2=h_ql_ny_gsc
 
->### **计算类产品**
+>### **计算**
 
 * Amazon EC2
 
@@ -52,7 +51,7 @@ https://aws.amazon.com/cn/products/?nc2=h_ql_ny_gsc
   自动化弹性扩展
   
 
->### **存储类产品**
+>### **存储**
 
 * Amazon S3
 
@@ -86,7 +85,7 @@ https://aws.amazon.com/cn/products/?nc2=h_ql_ny_gsc
 
   EB 级数据传输
   
->### **数据库类产品**
+>### **数据库**
 
 * Amazon Aurora
 
@@ -112,7 +111,7 @@ https://aws.amazon.com/cn/products/?nc2=h_ql_ny_gsc
 
   以最少停机时间迁移数据库
   
->### **迁移类产品**
+>### **迁移**
 
 AWS Database Migration Service
 
@@ -135,7 +134,7 @@ AWS Snowmobile
 EB 级数据传输
 
 
->### **迁移类产品**
+>### **网络和内容分发**
 
 Amazon VPC
 隔离的云资源
@@ -148,7 +147,59 @@ AWS 专用网络连接
 Elastic Load Balancing
 高扩展负载均衡
 
+>### **开发人员工具**
 
+AWS CodeCommit
+在私人 Git 存储库中存储代码
+AWS CodeBuild
+生成和测试代码
+AWS CodeDeploy
+自动化代码部署
+AWS CodePipeline
+使用连续交付发布软件
+AWS X-Ray
+分析和调试应用程序
+AWS 命令行界面
+用于管理 AWS 服务的统一工具
 
+>### **管理工具**
 
+Amazon CloudWatch
+监控资源和应用程序
+Amazon EC2 Systems Manager
+配置和管理 EC2 实例和本地服务器
+AWS CloudFormation
+使用模版来创建和管理资源
+AWS CloudTrail
+追踪用户活动和 API 使用情况
+AWS Config
+追踪资源库存和变更
+AWS OpsWorks
+利用 Chef 自动化操作
+AWS Service Catalog
+创建和使用标准化产品
+AWS Trusted Advisor
+优化性能和安全性
+AWS Personal Health Dashboard
+AWS 服务运行状况的个性化视图
 
+>### **安全性、身份与合规性**
+
+AWS Identity & Access Management
+管理用户权限和加密密钥
+Amazon Inspector
+分析应用程序安全性
+AWS Certificate Manager
+预置、管理和部署 SSL/TLS 证书
+AWS CloudHSM
+有助于实现监管合规性的基于硬件的密钥存储
+AWS Directory Service
+托管和管理 Active Directory
+AWS Key Management Service
+管理型的密钥创建和控制
+AWS Organizations
+管理多个账户的设置
+AWS Shield
+DDoS 保护
+AWS WAF
+过滤恶意 Web 流量
