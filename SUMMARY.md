@@ -20,11 +20,11 @@
             * [People](about/awsmethod/CAF/people.md)
             * [Process](about/awsmethod/CAF/process.md)
             * [Operations](about/awsmethod/CAF/operation.md)
-            * [Security](about/awsmethod/CAF/security.md)       
+            * [Security](about/awsmethod/CAF/security.md)
         * [安全与合规性](about/awsmethod/security/安全与合规性.md)
-            * BestPractice
-            * 方法和工具
-            * 其他建议
+            * [AWS最佳实践](about/awsmethod/security/bestpractice.md)
+            * [方法和工具](about/awsmethod/security/方法和工具.md)
+            * [其他建议](about/awsmethod/security/其他建议.md)
 * [AWS入门](start/awsstart.md)
     * [AWS产品体系](start/productsys/aws产品体系.md)
         * [计算](start/productsys/计算.md)
