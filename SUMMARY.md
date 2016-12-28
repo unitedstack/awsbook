@@ -8,7 +8,7 @@
     * [AWS框架与方法论](about/awsmethod/aws框架和方法论.md)
         * [AWS优良架构框架](about/awsmethod/aws优良架构框架.md)
             * [Security](about/awsmethod/security.md)
-            * Reliability
+            * [Reliability](about/awsmethod/reliability.md)
             * Performance Efficiency
             * [Cost Optimization](about/awsmethod/costoptimization.md)
             * Operational Excellence
