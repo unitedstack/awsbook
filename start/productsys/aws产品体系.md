@@ -4,7 +4,7 @@ Amazon Web Services 提供了大量基于云的全球性产品，其中包括计
 
 AWS 并不显式的从 IaaS、PaaS、SaaS 角度来划分产品体系，因为在他们看来，所有的产品是为满足业务需求而服务的，客户关心的是如何解决业务问题，而不是这些产品处于 Infrastructure / Platform / Software 的哪个层次。
 
-另外，从 AWS 官网对产品的分类可以看到，有些产品
+另外，从 AWS 官网对产品的分类可以看到，有些产品同时
 
 
 ![](/assets/产品体系.JPG)
