@@ -30,7 +30,7 @@
         * [游戏开发](start/productsys/游戏开发.md)
     * [AWS主要产品](start/products/aws主要产品.md)
         * [AmazonEC2](start/products/amazonec2.md)
-        * AmazonVPC
+        * [AmazonVPC](start/products/amazonvpc.md)
         * AutoScaling
         * AmazonS3
         * AmazonEBS
