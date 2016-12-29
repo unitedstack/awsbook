@@ -71,6 +71,16 @@ AWS 针对不同类型的应用分别设计了备份和恢复方案，包括面�
 
 数据备份和恢复方案：
 
+ * 通过 Direct Connect 连接 on-premises 环境和 AWS 云环境
+ 
+ * AWS-Based Applications 的应用直接将数据备份到 AWS 中
+
+ * 将备份管理迁移到云中
+
+ * 将长期归档数据放在云中（Amazon Glacier）
+ 
+ ![](/assets/hybrid-backup.JPG)
+ 
 
 
 
