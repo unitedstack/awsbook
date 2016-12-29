@@ -72,10 +72,9 @@
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
     * [文档](knowledge/docs/文档体系.md)
     * [白皮书](knowledge/whitepaper/白皮书.md)
-    * [博客](knowledge/aws博客.md)
     * [培训和认证体系](knowledge/training/培训和认证.md)
     * [Web入口](knowledge/web入口.md)
-    * 其它
+    * [其它](knowledge/其它.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](conclusion/openstack/openstack.md)
     * [为什么选择OpenStack](conclusion/whyos/whyopenstack.md)
