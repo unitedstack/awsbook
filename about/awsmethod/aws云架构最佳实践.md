@@ -1,21 +1,20 @@
 ## AWS 云架构最佳实践
 
-
 > ### **云计算与传统 IT 的区别 **
 
 * **IT Assets Become Programmable Resources**
 
- 自动化、动态伸缩
+  自动化、动态伸缩
+
 * **Global, Available, and Unlimited Capacity**
 
 * **Higher Level Managed Services**
 
- 减少客户对底层基础设施的管理工作
+  减少客户对底层基础设施的管理工作
 
 * **Security Built In**
- 
- 云中的安全，在安全与合规性章节中做简单介绍。
- 
+
+  云中的安全，在安全与合规性章节中做简单介绍
 
 > ### **云架构设计原则 **
 
@@ -45,123 +44,121 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
 
 #### 扩展性
 
- * 纵向扩展
-  
+* 纵向扩展
+
   例如单个 EC2 instance 的 CPU、内存、磁盘等的增加。
- 
- * 横向扩展
- 
+
+* 横向扩展
+
   需要考虑以下几种情况：无状态应用、无状态组件、有状态组件、分布式处理（如大数据场景）。
 
 #### 暴露资源而不是固定的服务器
 
 * Instantiating Compute Resources
 
- 对于实例化的计算资源，应该将资源创建过程自动化、模板化。AWS 通过以下几种方来实现：
+  对于实例化的计算资源，应该将资源创建过程自动化、模板化。AWS 通过以下几种方来实现：
 
- * Bootstrapping：引导脚本
+  * Bootstrapping：引导脚本
 
- * Golden Images：经过验证的 image
+  * Golden Images：经过验证的 image
 
- * Elastic Beanstalk：image + bootstrap 的混合模式
+  * Elastic Beanstalk：image + bootstrap 的混合模式
 
 * Infrastructure as Code
 
- 资源是可编程的，通过工具/技术/最佳实践实现基础设施的可重用 ( reusable), 可维护 (maintainable), 可扩展 (extensible), 和可测试 (testable)。
+  资源是可编程的，通过工具/技术/最佳实践实现基础设施的可重用 \( reusable\), 可维护 \(maintainable\), 可扩展 \(extensible\), 和可测试 \(testable\)。
 
- AWS CloudFormation 可以实现 Infrastructure as Code，通过 CloudFormation 模板可定义一组 AWS 资源的组合，方便部署、升级、版本管理。
- 
+  AWS CloudFormation 可以实现 Infrastructure as Code，通过 CloudFormation 模板可定义一组 AWS 资源的组合，方便部署、升级、版本管理。
+
 #### 自动化 Automation
 
- AWS 通过以下产品和服务来实现自动化：
- 
- * AWS Elastic Beanstalk
+AWS 通过以下产品和服务来实现自动化：
+
+* AWS Elastic Beanstalk
 
 * Amazon EC2 Auto recovery
 
- 借助 CloudWatch。
+  借助 CloudWatch
 
 * Auto Scaling
 
 * Amazon CloudWatch Alarms
 
- 可发消息至 Amazon Simple Notification Service (SNS) ，消息可触发一些自动化操作。
+  可发消息至 Amazon Simple Notification Service \(SNS\) ，消息可触发一些自动化操作
 
 * Amazon CloudWatch Events
 
- 可制定 rule 将 event 路由给其它服务做后续处理，如 Lambda functions,  Kinesis treams, SNS topics。
+  可制定 rule 将 event 路由给其它服务做后续处理，如 Lambda functions,  Kinesis treams, SNS topics
 
 * AWS OpsWorks Lifecycle event
 
- 实现整个生命周期中环境的自动化的持续配置管理。
+  实现整个生命周期中环境的自动化的持续配置管理
 
 * AWS Lambda Scheduled events
 
- 通过事件驱动Lambda服务（serverless计算服务）
+  通过事件驱动Lambda服务（serverless计算服务）
 
 #### 松耦合 Loose Coupling
-	
+
 应用/ IT 系统应该拆分成小的、松耦合的组件/模块。
-	
+
 * Well-Defined Interfaces
 
- 各组件之间通过统一接口来交互，如 Restful API。
-		
- Amazon API Gateway 也可实现上述目标。
-	
+  各组件之间通过统一接口来交互，如 Restful API
+
+  Amazon API Gateway 也可实现上述目标
+
 * Service Discovery
-		
- 比如使用 ELB + DNS，而不是通过IP直接调用。
-	
+
+  比如使用 ELB + DNS，而不是通过IP直接调用
+
 * Asynchronous Integration
-		
- 比如SQS队列服务或 Kinesis流式数据服务，而不是直接API call （
-		
-适用于异步调用）。
-	
+
+  比如SQS队列服务或 Kinesis流式数据服务，而不是直接API call
+
 * Graceful Failure
-		
- 处理好组件 failure。
- 
+
+  处理好组件 failure
+
 #### 服务，而不是服务器 Services, Not Servers
 
 * Managed Services
- 
- AWS 在“服务器”（EC2 instance）之外，更多的是提供各种服务，如  Amazon Simple Email Service (Amazon SES) 、各种 Database、machine learning、search 等。
+
+  AWS 在“服务器”（EC2 instance）之外，更多的是提供各种服务，如  Amazon Simple Email Service \(Amazon SES\) 、各种 Database、machine learning、search 等。
 
 * Serverless Architectures
- 
- 比如 Amazon Lambda 提供 Serverless 计算资源，可以按 code 执行时间收费而不是 instance 数量收费，可以充分 scale 利用资源。
- 
+
+  比如 Amazon Lambda 提供 Serverless 计算资源，可以按 code 执行时间收费而不是 instance 数量收费，可以充分 scale 利用资源。
+
 #### 数据库 Databases
 
 * 根据业务情况选择合适的数据库类型
 
- 应该从以下几个方面进行评估和考虑：
+  应该从以下几个方面进行评估和考虑：
 
- * 负载情况：读、写
+  * 负载情况：读、写
 
- * 数据量和增长趋势
+  * 数据量和增长趋势
 
- * 数据访问方式
+  * 数据访问方式
 
- * 数据持久性需求
+  * 数据持久性需求
 
- * 访问延迟需求，并发访问量
+  * 访问延迟需求，并发访问量
 
- * 数据模型，是否有关系型操作
+  * 数据模型，是否有关系型操作
 
- * 需要什么相关功能：例如完整性、灵活性、报表、基于SQL
+  * 需要什么相关功能：例如完整性、灵活性、报表、基于SQL
 
 * AWS 提供多种类型的数据库服务供选择
 
- * Relational Databases
+  * Relational Databases
 
- * NoSQL Databases
+  * NoSQL Databases
 
- * Data Warehouse
+  * Data Warehouse
 
- * Search 
+  * Search
 
 #### 消除单点故障 Removing Single Points of Failure
 
@@ -178,33 +175,32 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
 #### 成本优化 Optimize for Cost
 
 * Right Sizing
- 
- 合理评估业务需求，选择合适大小的资源*
 
- * Data-driven，持续监控和 tagging （了解和控制费用）
- 
- Data-driven 基于 CloudWatch，除了用于成本优化，还可用于云架构的持续优化。参见 Well-Architected Framework 的总体设计原则。
- 
+  合理评估业务需求，选择合适大小的资源
+  
+* Data-driven，持续监控和 tagging （了解和控制费用）
+
+  Data-driven 基于 CloudWatch，除了用于成本优化，还可用于云架构的持续优化。参见 Well-Architected Framework 的总体设计原则。
+
 * Elasticity
 
 * Take Advantage of the Variety of Purchasing Options
 
- 充分利用不的定价策略：reserved instance, spot instance, on-demand instance 等。
- 
-####缓存 Caching
+  充分利用不的定价策略：reserved instance, spot instance, on-demand instance 等。
+
+#### 缓存 Caching
 
 * Application Data Caching
 
 * Edge Caching
 
- CDN：CloudFront
- 
- 
+  CDN：CloudFront
+
 #### 安全 Security
 
 * Utilize AWS Features for Defense in Depth
 
- VPC、WAF、IAM 等
+  VPC、WAF、IAM 等
 
 * Offload Security Responsibility to AWS
 
@@ -212,9 +208,9 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
 
 * Security as Code
 
- 通过 CloudFormation 模板创建安全的 "golden environment"，以便重复使用。
+  通过 CloudFormation 模板创建安全的 "golden environment"，以便重复使用。
 
 * Real-Time Auditing
 
 
- 
+
