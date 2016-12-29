@@ -2,7 +2,7 @@
 
 AWS Well-Architected Framework 旨在帮助客户审视和优化他们的云架构，理解客户自己的业务是云架构的关键因素，一切的架构设计和优化都是为业务需求服务，从而更好的达到业务目标。
 
->_AWS 所有的架构设计理念都会落实和关联到具体的 AWS 产品与服务中去，并且会给出相应的 resource 链接，包括白皮书、报告、手册等，有很好的针对性和一致性。当客户认可 AWS 的架构设计理念与方法论时，很自然的也会接受由基于这些框架和方法论设计和引导出来的产品与服务。_
+> _AWS 所有的架构设计理念都会落实和关联到具体的 AWS 产品与服务中去，并且会给出相应的 resource 链接，包括白皮书、报告、手册等，有很好的针对性和一致性。当客户认可 AWS 的架构设计理念与方法论时，很自然的也会接受由基于这些框架和方法论设计和引导出来的产品与服务。_
 
 AWS Well-Architected Framework 包括 6 个总体设计原则（General Design Principles）和 5 大支柱（Five Pillars）。
 
@@ -10,16 +10,15 @@ AWS Well-Architected Framework 包括 6 个总体设计原则（General Design P
 
 1. Stop guessing your capacity needs
 
-1. Test systems at production scale
+2. Test systems at production scale
 
-2. Automate to make architectural experimentation easier
+3. Automate to make architectural experimentation easier
 
-3. Allow for evolutionary architectures
+4. Allow for evolutionary architectures
 
-4. Data-Driven architectures
+5. Data-Driven architectures
 
-5. Improve through game days
-
+6. Improve through game days
 
 > 5 大支柱：
 
@@ -33,11 +32,9 @@ AWS Well-Architected Framework 包括 6 个总体设计原则（General Design P
 
 5. 卓越运营 Operation Excellence Pillar
 
-
-**_architecting solution 需要根据业务目标在几个支柱之间做 trade-off。_**
+_**architecting solution 需要根据业务目标在几个支柱之间做 trade-off。**_
 
 ![](/assets/FivePillars.JPG)
-
 
 **延伸阅读：AWS Well-Architected Framework 系列：**
 

@@ -66,8 +66,6 @@
         * [BackupRecovery](solution/application/backuprecovery.md)
         * [HPC](solution/application/hpc.md)
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
-        * [金融](solution/industry/金融.md)
-        * [政府](solution/industry/政府.md)
     * [AWS生态](solution/marketplace/aws生态.md)
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
     * [文档](knowledge/docs/文档体系.md)
