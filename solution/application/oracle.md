@@ -127,4 +127,4 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
   另外，对于数据盘也有 IOPS 要求，针对不同规模和场景的数据库如何选择存储的建议，参见 [http://d0.awsstatic.com/whitepapers/determining-iops-needs-for-oracle-database-on-aws.pdf](http://d0.awsstatic.com/whitepapers/determining-iops-needs-for-oracle-database-on-aws.pdf)
 
 
-
+>_完整的解决方案请参见 https://d0.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf_

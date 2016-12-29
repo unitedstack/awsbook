@@ -83,6 +83,6 @@ AWS 针对不同类型的应用分别设计了备份和恢复方案，包括面�
  
 
 
-
+> _完整的解决方案请参见https://d0.awsstatic.com/whitepapers/Storage/Backup_and_Recovery_Approaches_Using_AWS.pdf_
 
 
