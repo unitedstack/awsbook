@@ -76,6 +76,9 @@
     * AWS博客
     * 文章与教程
     * [培训和认证体系](knowledge/training/培训和认证.md)
+    * 论坛
+    * 新闻
+    * Web入口
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](conclusion/openstack/openstack.md)
     * [为什么选择OpenStack](conclusion/whyos/whyopenstack.md)
