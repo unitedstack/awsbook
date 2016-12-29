@@ -177,16 +177,18 @@ AWS 通过以下产品和服务来实现自动化：
 * Right Sizing
 
   合理评估业务需求，选择合适大小的资源
-  
+
 * Data-driven，持续监控和 tagging （了解和控制费用）
 
-  Data-driven 基于 CloudWatch，除了用于成本优化，还可用于云架构的持续优化。参见 Well-Architected Framework 的总体设计原则。
+  Data-driven 基于 CloudWatch，除了用于成本优化，还可用于云架构的持续优化。
+
+  参见 Well-Architected Framework 的总体设计原则。
 
 * Elasticity
 
 * Take Advantage of the Variety of Purchasing Options
 
-  充分利用不的定价策略：reserved instance, spot instance, on-demand instance 等。
+  充分利用不同的定价策略：reserved instance, spot instance, on-demand instance 等。
 
 #### 缓存 Caching
 
