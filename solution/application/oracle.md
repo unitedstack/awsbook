@@ -57,10 +57,57 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
 
 ####  Oracle Database on AWS 架构
 
+更详细的架构设计最佳实践请参考 http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf
+
+> **Enterprise-Class Architecture** 
+
+![](/assets/Enterprise-class Oracle.JPG)
+
+> **Large Enterprise-Class Architecture**
+
+![](/assets/large-enterprise-class Oracle.JPG)
+
+> **High-Performance Architecture**
+
+![](/assets/high-performance Oracle.JPG)
+
+> **Oracle RAC Architecture**
+
+![](/assets/Oracle RAC.JPG)
 
 
+####  Oracle Database on AWS 与 AWS 相关产品
+
+* **安全和网络配置：**
+
+ 使用 Amazon VPC 将 Oracle 数据库放在一个私有子网中，并使用安全组和网络 ACL 实现安全策略
+
+* **Amazon EC2 实例类型：**
+
+ 如果使用 Amazon RDS，可选的实例类型：
+
+ * db.t2.micro to db.t2.large
+
+ * db.m3.medium to db.m3.2xlarge
+
+ * db.m4.large to db.m4.10xlarge
+
+ * db.r3.large to db.r3.8xlarge
 
 
+ 如果使用 Amazon EC2，可以有更多的实例类型选择，建议选择配置较好的类型，并且要和自己的 Oracle Database 版本对系统配置需求相匹配
+
+ Amazon EC2 实例的选择建议，参见 http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf
+
+* **Oracle AMI 选择：**
+
+ 可以选择 Oracle 在 AWS 上的官方 AMIs，也可以创建一个只包含操作系统的 Amazon EC2 instance，然后和传统的在硬件设备上部署 Oracle 数据库那样，再将数据库部署到 EC2 上。
+ 操作系统的选择建议请参见 http://d0.awsstatic.com/whitepapers/choosing-os-for-oracle-workloads-on-ec2.pdf
+
+* **存储选择：**
+
+ 由于数据库是读写密集型应用，需要使用高性能磁盘，因此建议选择 Amazon EBS-optimized 实例（系统盘基于 SSD 硬盘）。
+  另外，对于数据盘也有 IOPS 要求，针对不同规模和场景的数据库如何选择存储的建议，参见 http://d0.awsstatic.com/whitepapers/determining-iops-needs-for-oracle-database-on-aws.pdf
 
 
 
