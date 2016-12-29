@@ -26,5 +26,4 @@
 
 * **Host Security**: 通过 Amazon EC2 的安全组来提供主机安全
 
-
-
+>_完整的解决方案请参见 https://d0.awsstatic.com/whitepapers/aws-web-hosting-best-practices.pdf_
