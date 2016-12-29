@@ -14,7 +14,7 @@
 
 2. **Tightly Coupled HPC**
 
- * 计算节点的任务之间有很强的关联性，这列应用通常是基于 messaging passing interface (MPI) 编写的，节点之间有大量的通信，因此对节点间通信的延迟很敏感，也不能容忍节点的失效。例如气象模型仿真、计算流体力学
+ * 计算节点的任务之间有很强的关联性，这类应用通常是基于 messaging passing interface (MPI) 编写的，节点之间有大量的通信，因此对节点间通信的延迟很敏感，也不能容忍节点的失效。例如气象模型仿真、计算流体力学
  
  * 适合采用 Amazon EC2 placement groups 和  enhanced networking，以减少节点间的网络延迟
  
