@@ -2,18 +2,15 @@
 
 > ### **云计算与传统 IT 的区别 **
 
-* **IT Assets Become Programmable Resources**
-
+* **IT Assets Become Programmable Resources**  
   自动化、动态伸缩
 
 * **Global, Available, and Unlimited Capacity**
 
-* **Higher Level Managed Services**
-
+* **Higher Level Managed Services**  
   减少客户对底层基础设施的管理工作
 
-* **Security Built In**
-
+* **Security Built In**  
   云中的安全，在安全与合规性章节中做简单介绍
 
 > ### **云架构设计原则 **
@@ -64,10 +61,10 @@ AWS Cloud Architecting 最佳实践中提出了十个设计原则：
 
   * Elastic Beanstalk：image + bootstrap 的混合模式
 
-* Infrastructure as Code
+* **Infrastructure as Code**
 
   资源是可编程的，通过工具/技术/最佳实践实现基础设施的可重用 \( reusable\), 可维护 \(maintainable\), 可扩展 \(extensible\), 和可测试 \(testable\)。
-
+  
   AWS CloudFormation 可以实现 Infrastructure as Code，通过 CloudFormation 模板可定义一组 AWS 资源的组合，方便部署、升级、版本管理。
 
 #### 自动化 Automation
