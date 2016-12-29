@@ -2,8 +2,6 @@
 
 在 AWS 上运行 Oracle 数据库的解决方案和最佳实践。
 
-
-
 #### 关于数据库 license
 
 方式一：包含在 Amazon RDS License 中，定价包含了Oracle license 的费用，客户无需自己再购买 license；
@@ -15,8 +13,6 @@
 #### 如何运行 Oracle 数据库
 
 AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或者 Amazon EC2，两种方式各有优劣，适合不同场景的需求。
-
-
 
 > **方式一：使用 Amazon RDS**
 
@@ -42,8 +38,6 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
 
 * **劣势**：客户对数据库的控制更少，对数据库底层基础设施的选择灵活性更小
 
-
-
 > **方式二：使用 Amazon EC2**
 
 * **优势**：客户对数据库有更多的控制，更加灵活，对数据库底层技术设施有更多的选择
@@ -62,33 +56,23 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
 
 * **劣势**：客户需要花更多时间自己完成数据库的日常管理
 
-
-
 #### Oracle Database on AWS 架构
 
 更详细的架构设计最佳实践请参考
 
- [http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf](http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf)
-
-
+[http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf](http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf)
 
 > **Enterprise-Class Architecture**
 
 ![](/assets/Enterprise-class Oracle.JPG)
 
-
-
 > **Large Enterprise-Class Architecture**
 
 ![](/assets/large-enterprise-class Oracle.JPG)
 
-
-
 > **High-Performance Architecture**
 
 ![](/assets/high-performance Oracle.JPG)
-
-
 
 > **Oracle RAC Architecture**
 
@@ -112,9 +96,9 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
 
   * db.r3.large to db.r3.8xlarge
 
- 如果使用 Amazon EC2，可以有更多的实例类型选择，建议选择配置较好的类型，并且要和自己的 Oracle Database 版本对系统配置需求相匹配
+  如果使用 Amazon EC2，可以有更多的实例类型选择，建议选择配置较好的类型，并且要和自己的 Oracle Database 版本对系统配置需求相匹配
 
- Amazon EC2 实例的选择建议，参见 [http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf](http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf)
+  Amazon EC2 实例的选择建议，参见 [http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf](http://d0.awsstatic.com/enterprise-marketing/Oracle/AWSAdvancedArchitecturesforOracleDBonEC2.pdf)
 
 * **Oracle AMI 选择：**
 
@@ -126,5 +110,7 @@ AWS 提供两种运行数据库的方式供客户选择，使用 Amazon RDS 或�
   由于数据库是读写密集型应用，需要使用高性能磁盘，因此建议选择 Amazon EBS-optimized 实例（系统盘基于 SSD 硬盘）。  
   另外，对于数据盘也有 IOPS 要求，针对不同规模和场景的数据库如何选择存储的建议，参见 [http://d0.awsstatic.com/whitepapers/determining-iops-needs-for-oracle-database-on-aws.pdf](http://d0.awsstatic.com/whitepapers/determining-iops-needs-for-oracle-database-on-aws.pdf)
 
+> _完整的解决方案请参见 _[https://d0.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf](https://d0.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf)
 
->_完整的解决方案请参见 https://d0.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf_
+
+
