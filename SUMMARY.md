@@ -64,7 +64,6 @@
         * [WebApp](solution/application/webapp.md)
         * [Oracle](solution/application/oracle.md)
         * [BackupRecovery](solution/application/backuprecovery.md)
-        * [EMR](solution/application/emr.md)
         * [HPC](solution/application/hpc.md)
     * [典型解决方案 - 面向行业](solution/industry/aws行业解决方案.md)
         * [金融](solution/industry/金融.md)
