@@ -73,12 +73,12 @@
 * [AWS知识与价值体系](knowledge/aws知识与价值体系.md)
     * [文档](knowledge/docs/文档体系.md)
     * [白皮书](knowledge/whitepaper/白皮书.md)
-    * AWS博客
-    * 文章与教程
+    * [博客](knowledge/aws博客.md)
+    * [文章与教程](knowledge/文章与教程.md)
     * [培训和认证体系](knowledge/training/培训和认证.md)
-    * 论坛
-    * 新闻
-    * Web入口
+    * [论坛](knowledge/论坛.md)
+    * [新闻](knowledge/新闻.md)
+    * [Web入口](knowledge/web入口.md)
 * [AWS的启发](aws的启发.md)
     * [什么是OpenStack](conclusion/openstack/openstack.md)
     * [为什么选择OpenStack](conclusion/whyos/whyopenstack.md)
