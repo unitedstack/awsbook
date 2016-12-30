@@ -2,13 +2,13 @@
 
 #### 共同责任模型 Shared Responsibility Model
 
-* AWS Secure Global Infrastructure
+* **AWS Secure Global Infrastructure**
 
   IAM
 
   Regions, AZs, Endpoints
 
-* AWS Services的共同责任模型
+* **AWS Services的共同责任模型**
 
   模型概览  
   [https://aws.amazon.com/compliance/shared-responsibility-model/](https://aws.amazon.com/compliance/shared-responsibility-model/)  
@@ -24,7 +24,7 @@
 
 #### 工具
 
-* Trusted Advisor Tool
+* **Trusted Advisor Tool**
 
   参见 Trusted Advisor 产品介绍章节。
 

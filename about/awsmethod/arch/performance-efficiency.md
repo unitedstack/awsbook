@@ -3,15 +3,15 @@
 #### 设计原则
 
 
-1. **Democratize advanced technologies**
+1. Democratize advanced technologies
 
-2. **Go global in minutes**
+2. Go global in minutes
 
-3. **Use serverless architectures**
+3. Use serverless architectures
 
-4. **Experiment more often**
+4. Experiment more often
 
-5. **Mechanical sympathy**
+5. Mechanical sympathy
 
 
 
