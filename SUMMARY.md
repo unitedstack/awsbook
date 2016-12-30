@@ -1,6 +1,6 @@
 # Summary
 
-* [前言](前言.md)
+* [前言](README.md)
 * [什么是AWS？](about/AWS.md)
   * [关于AWS](about/aws/关于aws.md)
   * [AWS与云计算](about/awscloud/aws与云计算.md)
