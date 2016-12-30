@@ -13,9 +13,15 @@
 
 ![](/assets/community.png)
 
+图片来自 OpenStack 官方网站 www.openstack.org
+
 * **生态体系**
 
+OpenStack 的 Supporting Companies：
 
+http://www.openstack.org/foundation/companies
+
+![](/assets/ecosys.png)
 
 
 
