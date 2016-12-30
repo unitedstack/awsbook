@@ -30,7 +30,7 @@ AWS 认为备份和恢复策略应该能满足业务的 RTO 和 RPO，需要考�
 
 * Volume-level recovery
 
-* Application-level recovery (for example, databases)
+* Application-level recovery \(for example, databases\)
 
 * Image-level recovery
 
@@ -44,16 +44,16 @@ AWS 针对不同类型的应用分别设计了备份和恢复方案，包括面�
 
 * 基于 EBS Snapshot 备份卷和数据
 
- 实现了 File-level 和 Volume-level recovery
+  实现了 File-level 和 Volume-level recovery
 
 * 基于 Database Replica Backups \(Amazon RDS for Backups\)
 
- 实现了 Application-level recovery
+  实现了 Application-level recovery
 
 * 基于 AMI 备份 EC2 instance
 
- 实现了 Image-level recovery
- 
+  实现了 Image-level recovery
+
 > **on-premises 应用场景**
 
 数据备份和恢复方案：
