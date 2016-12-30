@@ -1,6 +1,6 @@
 # 结论
 
-> 本书试图回答如下问题？
+> 本书试图回答如下问题
 
 1. The Cloud Computing Difference
 
