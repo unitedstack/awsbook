@@ -2,17 +2,17 @@
 
 #### 设计原则
 
-1. **Adopt a consumption model**
+1. Adopt a consumption model
 
    pay as you go
 
-2. **Benefit from economies of scale**
+2. Benefit from economies of scale
 
-3. **Stop spending money on data center operations**
+3. Stop spending money on data center operations
 
-4. **Analyze and attribute expenditure**
+4. Analyze and attribute expenditure
 
-5. **Use managed services to reduce cost of ownership**
+5. Use managed services to reduce cost of ownership
 
 #### 定义和实现
 
