@@ -1,1 +1,21 @@
 # 为什么选择OpenStack
+
+## OpenStack 的价值 
+
+![](/assets/openstackvalue.png)
+
+
+* **开放性**
+
+![](/assets/open.png)
+
+* **社区活跃度**
+
+![](/assets/community.png)
+
+* **生态体系**
+
+
+
+
+
